@@ -81,6 +81,7 @@ body {
 .player1 ul li img{ 
     width:100px;
     height:75px;
+    border-radius: 15px;
 }
 
 .judulpemain{
@@ -164,6 +165,7 @@ body {
 .com ul li img{ 
     width:100px;
     height:75px;
+    border-radius: 15px;
 }
 
 .combatu, .comgunting, .comkertas{
