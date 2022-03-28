@@ -1,0 +1,34 @@
+ <h2>PLAYER 1</h2>
+        <div class="player1"> 
+            <ul>
+                <li><img src="assets-4/batu.png" class="batu"></li>
+                <li><img src="assets-4/gunting.png" class="gunting"></li>
+                <li><img src="assets-4/kertas.png" class="kertas"></li>
+            </ul>
+        </div>
+        <h5 class="vs">vs</h5>
+        <h2>COM</h2>
+        <div class="com">
+            <ul>
+                <li><img src="assets-4/batu.png" class="batu"></li>
+                <li><img src="assets-4/gunting.png" class="gunting"></li>
+                <li><img src="assets-4/kertas.png" class="kertas"></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+<div class="com">
+            <ul>
+                <li><img src="assets-4/batu.png" class="batu"></li>
+                <li><img src="assets-4/gunting.png" class="gunting"></li>
+                <li><img src="assets-4/kertas.png" class="kertas"></li>
+            </ul>
+        </div>
+
+
+
+ pilihanComputer.querySelector('.'+pilihanComputer).style.background='blue';

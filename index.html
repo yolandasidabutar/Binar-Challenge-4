@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BinarChallenge4</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li  class="back">&#60</li>
+            <li class="logo"><img src="assets-4/logo 1.png"></li>
+            <li class="judul">ROCK PAPER SCISSORS</li>
+        </ul>
+    </div>
+    <div class="areagame">
+        <div class="player1"> 
+            <ul>
+                <lI><p class="judulpemain">PLAYER 1</p></lI>
+                <li><img onclick="chooseplayer(this)" src="assets-4/batu.png" class="batu hover" data-player1="batu"></li>
+                <li><img onclick="chooseplayer(this)" src="assets-4/gunting.png" class="gunting hover" data-player1="gunting"></li>
+                <li><img onclick="chooseplayer(this)" src="assets-4/kertas.png" class="kertas hover" data-player1="kertas"></li>
+            </ul>
+        </div>
+        <div class="vs"><p>VS</p></div>
+        <div class="com">
+            <ul>
+                <li><p class="judulpemain">COM</p></li>
+                <li><img src="assets-4/batu.png" class="combatu"></li>
+                <li><img src="assets-4/gunting.png" class="comgunting"></li>
+                <li><img src="assets-4/kertas.png" class="comkertas"></li>
+            </ul>
+        </div> 
+    </div>
+    <div class="row reload"><p><img src="assets-4/refresh.png" class="refresh"></p>
+    </div>
+       
+    <script src="rps.js"></script>
+</body>
+
+</html>
